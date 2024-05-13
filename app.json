@@ -1,10 +1,35 @@
 {
   "expo": {
-    "name": "eurodoo",
+    "name": "junipERP Mobile",
+    "displayName": "junipERP Mobile",
     "slug": "eurodoo",
+     "jsEngine": "hermes",
     "version": "1.0.0",
     "assetBundlePatterns": [
       "**/*"
-    ]
+    ],
+    "icon": "./src/images/assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./src/images/assets/jun-logo-light.png",
+      "resizeMode": "center",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "web": {
+      "favicon": "./src/images/assets/icon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "c2dc6158-5f69-4c3d-81b6-1bd7f8fd21cc"
+      }
+    },
+    "runtimeVersion": "1.0.0",
+    "updates": {
+      "url": "https://u.expo.dev/c2dc6158-5f69-4c3d-81b6-1bd7f8fd21cc"
+    },
+    "android": {}
   }
 }
